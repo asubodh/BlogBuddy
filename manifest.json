@@ -13,6 +13,9 @@
     "http://*/*",
     "https://*/*"
   ],
+  "icons":{
+    "19": "logo.png"
+  },
   "action": {
     "default_icon": "logo.png",
     "default_title": "BlogBuddy",
