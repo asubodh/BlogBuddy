@@ -1,0 +1,21 @@
+﻿{
+  "name": "BlogBuddy",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Browser Extension for Bloggers.",
+  "permissions": [
+   "activeTab","contextMenus"
+   ],
+   "background": {
+    "service_worker": "./Events/ytsearch.js"
+  },
+   "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_icon": "logo.png",
+    "default_title": "BlogBuddy",
+    "default_popup": "popup.html"
+  }
+}
