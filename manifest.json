@@ -14,10 +14,13 @@
     "https://*/*"
   ],
   "icons":{
-    "19": "logo.png"
+    "19": "./Assets/icons/icon20.png",
+    "32": "./Assets/icons/icon32.png",
+    "48": "./Assets/icons/icon48.png",
+    "128": "./Assets/icons/icon128.png"
   },
   "action": {
-    "default_icon": "logo.png",
+    "default_icon": "./Assets/icons/icon128.png",
     "default_title": "BlogBuddy (BETA)",
     "default_popup": "popup.html"
   }
