@@ -1,5 +1,5 @@
 ﻿{
-  "name": "BlogBuddy",
+  "name": "BlogBuddy (BETA)",
   "version": "1.0",
   "manifest_version": 3,
   "description": "Browser Extension for Bloggers.",
@@ -18,7 +18,7 @@
   },
   "action": {
     "default_icon": "logo.png",
-    "default_title": "BlogBuddy",
+    "default_title": "BlogBuddy (BETA)",
     "default_popup": "popup.html"
   }
 }

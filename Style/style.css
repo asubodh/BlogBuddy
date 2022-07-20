@@ -46,3 +46,14 @@ button{
     cursor: pointer;
     margin: 1px;
 }
+
+#domain, #yturl{
+    width: 320px;
+}
+.loading-gif{
+    width: 150px;
+    height: 100px;
+}
+.outthum{
+    width: 320px;
+}
