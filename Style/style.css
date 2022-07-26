@@ -14,6 +14,7 @@ body{
 }
 .subhead{
     padding: 2px;
+    font-weight: bold;
 }
 .main{
     padding: 7px;
@@ -47,9 +48,6 @@ button{
     margin: 1px;
 }
 
-#domain, #yturl{
-    width: 320px;
-}
 .loading-gif{
     width: 150px;
     height: 100px;
@@ -57,3 +55,84 @@ button{
 .outthum{
     width: 320px;
 }
+
+/* BUTTONS POPUP PAGE */
+
+.button {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bolder;
+  }
+  
+  .button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
+
+  /* BUTTONS ON TOOLS PAGE */
+  .button-intools {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-intools:hover {
+    background-color: rgb(249,250,251);
+  }
+  
+  .button-intools:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .button-intools:focus-visible {
+    box-shadow: none;
+  }
+  .backbtn{
+    position: absolute;
+    color: black;
+    background-color: #eeeeee;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    top: 10px;
+    padding: 10px;
+    left: 20px;
+  }
