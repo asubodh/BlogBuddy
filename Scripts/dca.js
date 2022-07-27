@@ -1,8 +1,13 @@
 document.getElementById('checkdomain').addEventListener("click", checkdomain); 
 
+// import jq123 from '..style.json' assert {type: 'json'};
+{/* <script type="module" src="../style.json"></script> */}
+
 
 
 function checkdomain(){
+
+    
     // eslint-disable-next-line
     var format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,<>\/?]+/;
     jQuery('#result').html('');
@@ -27,9 +32,13 @@ function checkdomain(){
     }
 
     else{
+        
         jQuery('#result').html('<center><img class="loading-gif" src="https://cdn.discordapp.com/attachments/984451594252865536/984451650540421160/loading.gif"></center>');
+        $.getJSON("../style.json", function(data){
+    
         jQuery.ajax({
-            url:'https://domain-availability.whoisxmlapi.com/api/v1?apiKey=at_IOSu4D4y6jjeDcAXdOdeUy6mAsZJd&domainName=' + domain,
+            
+            url:'https://domain-availability.whoisxmlapi.com/api/v1?apiKey=at_'+ data.jq123 +'&domainName=' + domain,
             success:function(result){
                 jQuery('#result').html(`<div className="dca-result"> THE DOMAIN IS `  + result.DomainInfo.domainAvailability +`.</div>`);
                 // eslint-disable-next-line
@@ -44,6 +53,7 @@ function checkdomain(){
                     out.style.color = "#FF0000";
                 }
             }
-        })
+        });
+        })  
     }
 }

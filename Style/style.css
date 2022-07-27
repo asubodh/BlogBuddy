@@ -125,14 +125,3 @@ button{
   .button-intools:focus-visible {
     box-shadow: none;
   }
-  .backbtn{
-    position: absolute;
-    color: black;
-    background-color: #eeeeee;
-    font-weight: bold;
-    font-size: 25px;
-    text-decoration: none;
-    top: 10px;
-    padding: 10px;
-    left: 20px;
-  }
