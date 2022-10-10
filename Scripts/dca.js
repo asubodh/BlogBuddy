@@ -3,8 +3,6 @@ document.getElementById('checkdomain').addEventListener("click", checkdomain);
 // import jq123 from '..style.json' assert {type: 'json'};
 {/* <script type="module" src="../style.json"></script> */}
 
-
-
 function checkdomain(){
 
     
