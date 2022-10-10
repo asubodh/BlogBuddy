@@ -1,9 +1,6 @@
-<p align="center">
 
-![Blog Buddy Logo](https://cdn.discordapp.com/attachments/1028853659087413268/1028853886670348298/icon128.png)
-**Blog Buddy - Browser Extension for Bloggers.**
-
- </p>
+# Blog Buddy
+Browser Extension for Bloggers.
  
  ## Used
  
@@ -21,6 +18,7 @@
 - Reverse Text
 - Youtube Thumbnail Extractor
 - Word Counter
+- Right Click Search on YouTube Button 
 
 ## Additional Features
 - Copy & Download Button
