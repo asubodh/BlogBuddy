@@ -36,6 +36,12 @@ Simply Download the repo or fork it for later. Now extract the downloaded file a
 
 Now, Turn on the Developer mode now you can click on the load unpack button and then choose the extracted directory. Finally, you can enjoy the extension be sure to pin it. 
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/43497160/194794149-bac99155-0cb5-47f4-b8fa-016880566efd.png)
+------------
+![image](https://user-images.githubusercontent.com/43497160/194794203-0e7b8fa7-cfff-4940-b547-8bbc50adff00.png)
+
 **Free Extension, Hell Yeah!**
 
 ## Contributors
